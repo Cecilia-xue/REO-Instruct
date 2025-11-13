@@ -1,4 +1,4 @@
-# REO-VLM: Transforming VLM to Meet Regression Challenges in Earth Observation
+# Towards Unified Vision Language Models for Forest Ecological Analysis in Earth Observation
 
 ![abstract](https://REO-VLM-anonymous.github.io/picx-images-hosting/abstract.6ikgjwx7vq.webp)
 
@@ -10,9 +10,9 @@
 
 
 
-**Official repository for paper: "REO-VLM: Transforming VLM to Meet Regression Challenges in Earth Observation"**
+**Official repository for paper: "Towards Unified Vision Language Models for Forest Ecological Analysis in Earth Observation"**
 
-We introduce **REO-VLM**, a novel Vision-Language Model tailored for **scientific regression** in Earth Observation (EO), and propose **REO-Instruct**, the first unified EO benchmark supporting both regression and generation tasks.
+We propose **REO-Instruct**, the first unified EO benchmark supporting both regression and generation tasks.
 
 ## ⚠️ Challenges in Scientific Regression with VLMs
 
@@ -84,38 +84,6 @@ REO-Instruct is a large-scale multimodal benchmark tailored for scientific analy
 
 
 
----
-
-## 🧠 Model Overview: REO-VLM
-
-![REO-VLM](https://REO-VLM-anonymous.github.io/picx-images-hosting/REO-VLM.3gokiphq31.webp)
-
-
-
-
-
-
-
-
-
-REO-VLM is a unified VLM architecture that bridges visual understanding and numeric regression:
-
-- Supports both generation (textual reasoning) and regression (AGB prediction) tasks
-
-- Proposes a **reverse projection module** to fuse domain knowledge from language back into vision
-
-- Introduces a custom-designed **regression head** optimized for EO tasks
-
-- Incorporates a **Spectral Recombination Strategy** for easier multimodal fusion
-
-- Implements **Visual Token Selection** to focus on high-value spatial features
-
-We provide benchmark (containing training and inference code) with pre-trained model checkpoints.
-
-> 🔗 Code & Pretrained Models: [TODO: Model Zoo]
-
----
-
 ## 🚀 Getting Started
 
 ```bash
@@ -148,11 +116,13 @@ We gratefully acknowledge the authors of **AGBD: A Global-scale Biomass Dataset*
 Please also consider citing the following works if you use REO-Instruct data or biomass-related imagery:
 
 ```bibtex
-@article{sialelli2024agbd,
-  title   = {AGBD: A Global-scale Biomass Dataset},
-  author  = {Sialelli, Ghjulia and Peters, Torben and Wegner, Jan D. and Schindler, Konrad},
-  journal = {arXiv preprint arXiv:2406.04928},
-  year    = {2024}
+
+@article{xue2025towards,
+  title   = {Towards Unified Vision Language Models for Forest Ecological Analysis in Earth Observation},
+  author  = {Xizhe Xue and Xiaoxiang Zhu},
+  journal = {Proceedings of the AAAI Conference on Artificial Intelligence AI4ES workshop},
+  year    = {2025}
 }
+
 ```
 
