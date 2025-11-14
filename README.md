@@ -211,31 +211,27 @@ conda activate reo-vlm
 pip install -r requirements.txt
 
 
-
 ## 📢 Release Status
 
-- 🤗 Hugging Face Dataset: Coming Soon
-- 🧠 Model Release: In Progress
-- 🗺️ [TorchGeo Integration](https://www.osgeo.org/projects/torchgeo/)[ (](https://www.osgeo.org/projects/torchgeo/)with help of outstanding colleague [Adam J. Stewart](https://github.com/adamjstewart)[):](https://github.com/adamjstewart) In Progress
+- 🤗 Hugging Face Dataset: Coming Soon  
+- 🧠 Model Release: In Progress  
+- 🗺️ [TorchGeo Integration](https://www.osgeo.org/projects/torchgeo/) (with help of outstanding colleague [Adam J. Stewart](https://github.com/adamjstewart)): In Progress  
 
-##
+---
 
 ## 🙏 Acknowledgements
 
 We gratefully acknowledge the authors of **AGBD: A Global-scale Biomass Dataset** for providing high-quality biomass-related imagery data:
 
-- [Ghjulia Sialelli](mailto\:gsialelli@ethz.ch), Torben Peters, Jan D. Wegner, Konrad Schindler
+- [Ghjulia Sialelli](mailto:gsialelli@ethz.ch), Torben Peters, Jan D. Wegner, Konrad Schindler
 
-Please also consider citing the following works if you use REO-Instruct data or biomass-related imagery:
+Please also consider citing the following work if you use REO-Instruct data or biomass-related imagery:
 
 ```bibtex
-
 @article{xue2025towards,
   title   = {Towards Unified Vision Language Models for Forest Ecological Analysis in Earth Observation},
   author  = {Xizhe Xue and Xiaoxiang Zhu},
-  journal = {Proceedings of the AAAI Conference on Artificial Intelligence AI4ES workshop},
+  journal = {Proceedings of the AAAI Conference on Artificial Intelligence, AI4ES Workshop},
   year    = {2025}
 }
-
-```
 
