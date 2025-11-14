@@ -196,28 +196,13 @@ These results indicate that **scientific VLMs for EO need regression-aware archi
 - Validation: [📥 Download](https://drive.google.com/drive/folders/1OoQDcRyuT4npc6uxHoKi-NxBMj3MSBT9?usp=sharing)  
 - Test: [📥 Download](https://drive.google.com/drive/folders/1OoQDcRyuT4npc6uxHoKi-NxBMj3MSBT9?usp=sharing)
 
----
+### 📢 Release Status
 
-## 🚀 Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/your-org/REO-VLM.git
-cd REO-VLM
-
-# (Optional) Set up environment
-conda create -n reo-vlm python=3.10
-conda activate reo-vlm
-pip install -r requirements.txt
-
-
-## 📢 Release Status
-
-- 🤗 Hugging Face Dataset: Coming Soon  
-- 🧠 Model Release: In Progress  
+- 🤗 Hugging Face Dataset: Coming Soon 
 - 🗺️ [TorchGeo Integration](https://www.osgeo.org/projects/torchgeo/) (with help of outstanding colleague [Adam J. Stewart](https://github.com/adamjstewart)): In Progress  
 
 ---
+
 
 ## 🙏 Acknowledgements
 
